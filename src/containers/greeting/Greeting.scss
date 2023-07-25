@@ -1,0 +1,178 @@
+@import "../../_globalColor";
+
+.main {
+  width: 90%;
+  margin: 0px auto;
+}
+
+.greet-main {
+  width: 90%;
+  // padding: 20px 10px;
+  margin: 0px auto;
+  // margin-top: 2rem;
+}
+
+.greeting-main {
+  display: flex;
+}
+
+.subTitle {
+  color: $subTitle !important;
+}
+
+.greeting-main {
+  display: flex;
+}
+
+.greeting-main>* {
+  flex: 1;
+  margin-bottom: 10px;
+}
+
+
+.greeting-text h1 {
+  margin-right: 10px;
+}
+
+.button-greeting-div {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.button-greeting-div {
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: wave;
+  transform-origin: 5% 5%;
+}
+
+.greeting-text {
+  flex: 2 !important;
+  font-size: 70px;
+  line-height: 1;
+  color: $textColor !important;
+  margin-top: 40px;
+}
+
+
+
+.greeting-text-p {
+  color: $textColor;
+}
+
+.greeting-text-p.subTitle {
+  font-size: 32px;
+  line-height: 1;
+}
+
+.dark-mode.subTitle {
+  color: $subTitle;
+}
+
+.greeting-text-p.paragraph {
+  font-size: 20px;
+  line-height: 1;
+}
+
+.greeting-image-div {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 1.5rem;
+}
+
+.greeting-image-div>img {
+  max-width: 100%;
+  height: auto;
+  max-height: 80vh;
+  // margin-right: 80px;
+  margin-top: 15px;
+}
+
+.wave-emoji {
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: wave;
+  display: inline-block;
+  transform-origin: 5% 5%;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  10% {
+    transform: rotate(-5deg);
+  }
+
+  20% {
+    transform: rotate(5deg);
+  }
+
+  30% {
+    transform: rotate(-5deg);
+  }
+
+  40% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .greeting-text {
+    font-size: 50px;
+  }
+
+  .greeting-text-p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .button-greeting-div {
+    justify-content: space-around;
+  }
+
+  .greeting-text {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .greeting-text-p.subTitle {
+    font-size: 20px;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .greeting-text-p.paragraph {
+    font-size: 15px;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .greeting-main {
+    display: block;
+  }
+
+  .greeting-image-div {
+    height: auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .main {
+    width: auto;
+  }
+}

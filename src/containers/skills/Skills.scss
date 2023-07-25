@@ -1,0 +1,89 @@
+@import "../../_globalColor";
+
+.main {
+  width: 90%;
+  //padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 15rem;
+}
+
+.skills-main-div {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.skills-text-div {
+  margin-left: 50px;
+  margin-top: 3rem;
+}
+
+// .skills-main-div>* {
+//   //flex: 1;
+//   // margin-bottom: 30px;
+// }
+
+.skills-image-div {
+  display: flex;
+  justify-content: flex;
+  align-items: center;
+  margin: 1.5rem;
+}
+
+.skills-image-div>img {
+  max-width: 100%;
+  height: auto;
+  max-height: 80vh;
+}
+
+.skills-heading {
+  font-size: 56px;
+  font-weight: 400;
+}
+
+.subTitle {
+  color: $subTitle;
+  font-size: 20px;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .skills-heading {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .greeting-text-p {
+    font-size: 16px;
+    line-height: normal;
+  }
+
+  .skills-main-div {
+    flex-direction: column;
+  }
+
+  .skills-text-div {
+    margin-left: 0px;
+    color: $textColor;
+    //margin: 20px;
+  }
+
+  .skills-text {
+    font-size: 16px;
+  }
+
+  .skills-text-subtitle {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .skills-image-div {
+    /* display: none; */
+    order: 2;
+  }
+}
