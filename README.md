@@ -1,12 +1,6 @@
 ## Welcome to my website!
 
 
-<p align="center">
-  <kbd>
-<img src="src/assets/images/webpage.png"></img>
-  </kbd>
-</p>
-
 
 
 ## Portfolio Sections
@@ -18,7 +12,7 @@
 ✔️ Contact me
 
 
-To view a live example, **[click here](https://developerfolio.js.org/)**.
+
 
 
 
@@ -28,7 +22,6 @@ From your command line, clone and run developerFolio:
 
 ```bash
 # Clone this repository
-git clone https://github.com/yaoyueyue/myWebsite.git
 
 # Go into the repository
 cd myWebsite

@@ -20,25 +20,25 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Yue Yao",
-  title: "Hi all, I'm Yue",
+  username: "Faizuddin Mohammed",
+  title: "Hi all, I'm Faizuddin",
   subTitle: "Here is a little piece about myself",
   introductionParagraphs: [emoji("👩🏻‍💻 Passionate Full Stack Software Developer"),
-  emoji("🚀 Looking for Internships and Co-ops in tech"),
-  emoji("👩🏻‍🎓 Studying Computer Science at NEU"),
-  emoji("🧘🏻‍♀️ Love yoga and mindfulness practices"), emoji("🏃🏻‍♀️ Enjoy hiking and staying positive"), emoji(" 🎹 Play piano as a hobby"), emoji(" ✍🏻 Love writing and sharing ideas"),
+  emoji("🚀 Looking for Internships and Full Stack Developer roles in tech"),
+  emoji("👩🏻‍🎓 Graduated from State University of New York"),
+  emoji("🧘🏻‍♀️ Love gym and cooking"), emoji("🏃🏻‍♀️ Enjoy hiking and staying positive"),emoji(" ✍🏻 Love writing and sharing ideas"),
   ],
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/131efNp7JRt77-eay9MEehb5b6uR-8JoL/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/yaoyueyue",
-  linkedin: "https://www.linkedin.com/in/yueyao1008/",
-  gmail: "amanday0021@gmail.com",
+  github: "https://github.com/Itachi4",
+  linkedin: "https://www.linkedin.com/in/faizuddinmohammed4/",
+  gmail: "faizuddin3366@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -51,11 +51,11 @@ const skillsSection = {
   subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive front end user interfaces for web and mobile applications"
+      "⚡Develop highly interactive front-end interfaces powered by robust back-end integration for web applications that shine. "
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS"
+      "⚡ Integration of third party services such as MongoDB/ AWS"
     )
   ],
 
@@ -73,12 +73,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fa-brands fa-java"
     },
     {
-      skillName: "html",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Spring Boot",
+      fontAwesomeClassname: "fa-brands fa-java"
     },
     {
       skillName: "JavaScript",
@@ -93,21 +89,42 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "Bootstrap",
-      fontAwesomeClassname: "fab fa-bootstrap"
-    },
-    {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
+    {
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular"
+    },
+    {
+      skillName: "TypeScript",
+      fontAwesomeClassname: "fab fa-typescript"
+    },
+    {
+      skillName: "Pandas",
+      fontAwesomeClassname: "fas fa-chart-line"  
+    },
+    {
+      skillName: "scikit-learn",
+      fontAwesomeClassname: "fas fa-brain"  
+    },
+    {
+      skillName: "TensorFlow",
+      fontAwesomeClassname: "fas fa-brain"  
+    },
+    {
+      skillName: "Matplotlib",
+      fontAwesomeClassname: "fas fa-chart-bar" 
+    },
+
 
   ],
   display: true // Set false to hide this section, defaults to true
@@ -119,20 +136,21 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Northeastern University",
-      logo: require("./assets/images/northeastern.png"),
+      schoolName: "State University of New York",
+      logo: require("./assets/images/suny.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2022 - December 2024",
+      duration: "August 2022 - December 2023",
       desc: "GPA 4.0/4.0",
       desc:
-        "Took Courses about Java, C, Python, Object-Oriented Design, Data strucutres, Algorithms, Discrete Math",
+        "Relevant Coursework: Operating Systems, DBMS, Algorithms, ML, Web Technologies, Data Science, Data Analytic",
+        
     },
     {
-      schoolName: "Nankai University",
-      logo: require("./assets/images/Nankai.png"),
-      subHeader: "Bachelor of Business Administration",
-      duration: "September 2012 - June 2016",
-      desc: "Ranked top 10% in the program",
+      schoolName: " Jawaharlal Nehru Technological University",
+      logo: require("./assets/images/jntuh.png"),
+      subHeader: "Bachelor of Technology in Computer Science",
+      duration: "June 2017 - June 2021",
+      desc: "Relevant Coursework:  Java, C, Python, Object-Oriented Design, Data strucutres, Algorithms, Discrete Math",
     }
   ]
 };
@@ -140,19 +158,19 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: false, //Set it to true to show Proficiency Section
+  viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "100%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "100%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -164,22 +182,32 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Teaching Assistant",
-      company: "Northeastern University",
-      companylogo: require("./assets/images/northeastern.png"),
-      date: "Jan 2023 – Present",
+      role: " Machine Learning Intern",
+      company: "Scale AI",
+      companylogo: require("./assets/images/scaleai.png"),
+      date: "June 2023 – January 2024",
       descBullets: [
-        "Led weekly lab recitations for a cohort of 30 master students,worked with faculty members to evaluate student labs, assignments, and projects on a weekly basis.",
-        "Mentored first-semester master students in Python programming, data structure and algorithms."
+        "Conducted exploratory data analysis (EDA) on large datasets using Python, Pandas, Matplotlib, and NumPy to uncover insights and inform model selection strategies. Developed and enhanced predictive models employing scikit-learn and TensorFlow for classification and regression problems, achieving significant accuracy improvements. Implemented Natural Language Processing (NLP) techniques with NLTK for sentiment analysis, enhancing product recommendation systems and integrating deep learning methodologies for robust analytics."
       ]
     },
+    
     {
-      role: "Research Assistant",
-      company: "Northeastern University",
-      companylogo: require("./assets/images/northeastern.png"),
-      date: "Jun 2023 – Aug 2023",
-      descBullets: ["Initiated machine learning model by using python libraries including numPy, scipy, sklearn, pylab.",
-        "Conducted cohort studies of the gut microbiota with faculty members based on von Mises–Fisher distribution and EM algorithm."]
+      role: "Full Stack Developer",
+      company: "Infosys",
+      companylogo: require("./assets/images/infosys.png"),
+      date: "June 2021 – June 2022",
+      descBullets: ["Spearheaded the development of RESTful APIs and integrated Microservices using Java and Spring Boot, boosting system efficiency. Enhanced UI responsiveness by building interactive SPAs with Angular, RxJS, NgRx, and Angular Material. Streamlined workflows with AWS Lambda, reducing latency by 20%, and implemented efficient CI/CD pipelines using Jenkins. Ensured robust security by collaborating on scans, data masking, and encryption. Optimized Oracle 9i database interactions, significantly improving data access and performance. "]
+    },
+
+    {
+      role: "Teaching Assistant",
+      company: "Jawaharlal Nehru Technological University",
+      companylogo: require("./assets/images/jntuh.png"),
+      date: "January 2019 – January 2021",
+      descBullets: [
+        "Led weekly lab recitations for a cohort of 30 master students,worked with faculty members to evaluate student labs, assignments, and projects on a weekly basis.",
+        "Mentored first-semester students in Python programming, data structure and algorithms."
+      ]
     },
     // {
     //   role: "Software Engineer Intern",
@@ -206,28 +234,74 @@ const bigProjects = {
   subtitle: "Some personal projects I've been working on",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/javagarbage.webp"),
+      projectName: " Java Garbage Collector",
+      projectDesc: "The G1-style garbage collector exhibits deep expertise in JVM internals and memory management, featuring custom concurrent mark-sweep algorithms that reduce pause times and enhance application performance; it includes advanced thread synchronization, uses volatile variables for improved concurrency control, and incorporates robust exception handling with optimized memory allocation strategies.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://github.com/Itachi4/G1GC-Master"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/blockchain.webp"),
+      projectName: "AdSpace Marketplace DApp",
+      projectDesc: "Developed a decentralized marketplace leveraging Ethereum blockchain technology, integrated with MetaMask for secure cryptocurrency transactions and Web3.js for interacting directly with smart contracts. Deployed the application in a cloud environment, utilizing containers for microservice orchestration. Streamlined ad space management through a sophisticated React interface, hosted on Heroku with dynamic scaling and automated deployment pipelines for continuous integration and delivery. Incorporated robust security features such as SSL/TLS encryption and OAuth for user authentication to ensure data integrity and privacy.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://github.com/Itachi4/blockchain"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/carrental.webp"),
+      projectName: "Car Rental Management System",
+      projectDesc: "Implemented a robust Java-based backend with PostgreSQL integration for efficient data management and scalability. Developed the front-end using React.js, leveraging its component-based architecture to ensure a responsive and user-friendly interface. Hosted the application on the Azure cloud, utilizing Azure App Service for seamless deployment and Azure SQL Database for high availability and secure data storage. Enhanced the system's security with Azure Active Directory for identity management and incorporated automated CI/CD pipelines using Azure DevOps for streamlined updates and maintenance.",
+      
+    },
+    {
+      image: require("./assets/images/movierec.webp"),
+      projectName: "Movie Recommendation System",
+      projectDesc: " Developed the frontend using Angular, creating a dynamic and responsive user interface. For the backend, implemented a real-time movie recommendation engine with MongoDB for scalable data storage, and Express.js integrated with machine learning algorithms, using TensorFlow to enhance personalization based on user behavior. Created efficient RESTful APIs with Node.js and Express for robust request handling, including JWT authentication for secure user sessions. The complete system was deployed on Google Cloud Platform (GCP), utilizing Compute Engine for scalable server management, Cloud Storage for efficient data accessibility, and App Engine for automatic scaling capabilities.",
+      
+    },
+    {
+      image: require("./assets/images/crime.webp"),
+      projectName: "Real-Time Crime Forecasting",
+      projectDesc: "Spearheaded the development of, leveraging including Pandas, NumPy, and Scikit-learn to predict and trends. Employed clustering algorithms like K-Means and DBSCAN, and classification models such as Random Forest and SVM to enhance predictive accuracy. Additionally, engineered from socio-economic and geographic data, implemented an interactive using Folium, and deployed the solution on GCP. This involved rigorous evaluation, significantly improving predictive accuracy and operational response times.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://github.com/Itachi4/crimePrediction"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/takeout.webp"),
+      projectName: "Takeout Management System",
+      projectDesc: "Developed a Takeout Management System featuring a robust backend built with Spring Boot, supporting effective management of dishes, orders, and employee details, and secured with Spring Security and Spring Data JPA for MySQL integration. The Angular frontend, enhanced with Node.js, offers an intuitive interface for customers to explore menus and place orders in real-time. The system leverages MySQL and Mybatis Plus for a scalable database structure and Redis for caching, improving application responsiveness and reducing load times.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://github.com/Itachi4/Takeout_web"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/trails.webp"),
+      projectName: "Trails Web Application",
+      projectDesc: "Built a full-stack Trails Web Application that enables users to search, add, and rate hiking trail locations. The front end was designed using HTML, CSS, and JavaScript to craft a dynamic user interface. Backend functionality was achieved through RESTful APIs developed with Node.js and Express, handling HTTP requests and efficiently managing data using MongoDB as the primary database. User authentication was secured with Passport.js, enhancing the user experience. The application features integrated Cloudinary for storing and managing images associated with user reviews and uses MapBox APIs to create an interactive cluster map, leveraging geocoding data to dynamically display locations.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://github.com/Itachi4/Adventure"
         }
       ]
     }
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -242,55 +316,34 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      title: "17 Degree of Freedom Autonomous Robot",
+      subtitle: "Won Undergraduate technical fest with 17 DOF autonomous robot",
+      image: require("./assets/images/robot.webp"),
+      imageAlt: "Awesome Robot here!",
       footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+       
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      title: "Infosys Certified Angular Professional",
+      subtitle: "Certified in  Angular, RxJS, Angular CLI, Angular Material",
+      image: require("./assets/images/angular.png"),
+      imageAlt: "Angular Certification",
       footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
+       
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Infosys Certified Java Professional",
+      subtitle: "Certified in  OOPS, Operators, Spring MVC, Hibernate, JDBC, JPA, Autowiring",
+      image: require("./assets/images/java.png"),
+      imageAlt: "Java Certification",
       footerLink: [
-        { name: "Certification", url: "" },
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+       
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -353,7 +406,7 @@ const contactInfo = {
   title: emoji("Contact Me"),
   subtitle:
     "Discuss job opportunities or just say hi? ",
-  email_address: "amanday0021@gmail.com"
+  email_address: "faizuddin3366@gmail.com"
 };
 
 // Twitter Section
