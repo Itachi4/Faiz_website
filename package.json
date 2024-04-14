@@ -22,9 +22,9 @@
     "scipy": "^0.1.4"
   },
   "scripts": {
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
     "build": "react-scripts build"
   },
   "eslintConfig": {
