@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Faiz_website/static/css/main.2c912a50.css",
-    "main.js": "/Faiz_website/static/js/main.85fb29c9.js",
+    "main.js": "/Faiz_website/static/js/main.8fd91352.js",
     "static/css/64.dc38dcf9.chunk.css": "/Faiz_website/static/css/64.dc38dcf9.chunk.css",
     "static/js/64.cea9f33d.chunk.js": "/Faiz_website/static/js/64.cea9f33d.chunk.js",
     "static/css/769.9988c480.chunk.css": "/Faiz_website/static/css/769.9988c480.chunk.css",
@@ -27,7 +27,7 @@
     "index.html": "/Faiz_website/index.html",
     "static/media/talksCardBack.svg": "/Faiz_website/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.2c912a50.css.map": "/Faiz_website/static/css/main.2c912a50.css.map",
-    "main.85fb29c9.js.map": "/Faiz_website/static/js/main.85fb29c9.js.map",
+    "main.8fd91352.js.map": "/Faiz_website/static/js/main.8fd91352.js.map",
     "64.dc38dcf9.chunk.css.map": "/Faiz_website/static/css/64.dc38dcf9.chunk.css.map",
     "64.cea9f33d.chunk.js.map": "/Faiz_website/static/js/64.cea9f33d.chunk.js.map",
     "769.9988c480.chunk.css.map": "/Faiz_website/static/css/769.9988c480.chunk.css.map",
@@ -35,6 +35,6 @@
   },
   "entrypoints": [
     "static/css/main.2c912a50.css",
-    "static/js/main.85fb29c9.js"
+    "static/js/main.8fd91352.js"
   ]
 }
