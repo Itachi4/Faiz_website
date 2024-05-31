@@ -26,7 +26,7 @@ const greeting = {
   introductionParagraphs: [emoji("👩🏻‍💻 Passionate Full Stack Software Developer"),
   emoji("🚀 Looking for Internships and Full Stack Developer roles in tech"),
   emoji("👩🏻‍🎓 Graduated from State University of New York"),
-  emoji("🧘🏻‍♀️ Love gym and cooking"), emoji("🏃🏻‍♀️ Enjoy hiking and staying positive"),emoji(" ✍🏻 Love writing and sharing ideas"),
+  emoji("🧘🏻‍♀️ Love gym and cooking"), emoji("🏃🏻‍♀️ Enjoys hiking and staying positive"),emoji(" ✍🏻 Love writing and sharing ideas"),
   ],
   resumeLink:
     "https://drive.google.com/file/d/131efNp7JRt77-eay9MEehb5b6uR-8JoL/view?usp=drive_link", // Set to empty to hide the button
@@ -149,7 +149,7 @@ const educationInfo = {
       schoolName: " Jawaharlal Nehru Technological University",
       logo: require("./assets/images/jntuh.png"),
       subHeader: "Bachelor of Technology in Computer Science",
-      duration: "June 2017 - June 2021",
+      duration: "June 2015 - June 2019",
       desc: "Relevant Coursework:  Java, C, Python, Object-Oriented Design, Data strucutres, Algorithms, Discrete Math",
     }
   ]
@@ -192,10 +192,10 @@ const workExperiences = {
     },
     
     {
-      role: "Full Stack Developer",
+      role: "Senior Full Stack Developer",
       company: "Infosys",
       companylogo: require("./assets/images/infosys.png"),
-      date: "June 2021 – June 2022",
+      date: "June 2019 – June 2022",
       descBullets: ["Spearheaded the development of RESTful APIs and integrated Microservices using Java and Spring Boot, boosting system efficiency. Enhanced UI responsiveness by building interactive SPAs with Angular, RxJS, NgRx, and Angular Material. Streamlined workflows with AWS Lambda, reducing latency by 20%, and implemented efficient CI/CD pipelines using Jenkins. Ensured robust security by collaborating on scans, data masking, and encryption. Optimized Oracle 9i database interactions, significantly improving data access and performance. "]
     },
 
@@ -203,7 +203,7 @@ const workExperiences = {
       role: "Teaching Assistant",
       company: "Jawaharlal Nehru Technological University",
       companylogo: require("./assets/images/jntuh.png"),
-      date: "January 2019 – January 2021",
+      date: "January 2017 – January 2018",
       descBullets: [
         "Led weekly lab recitations for a cohort of 30 master students,worked with faculty members to evaluate student labs, assignments, and projects on a weekly basis.",
         "Mentored first-semester students in Python programming, data structure and algorithms."
