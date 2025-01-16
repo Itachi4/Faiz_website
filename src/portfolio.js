@@ -23,13 +23,16 @@ const greeting = {
   username: "Faizuddin Mohammed",
   title: "Hi all, I'm Faizuddin",
   subTitle: "Here is a little piece about myself",
-  introductionParagraphs: [emoji("👩🏻‍💻 Passionate Full Stack Software Developer"),
-  emoji("🚀 Looking for Internships and Full Stack Developer roles in tech"),
-  emoji("👩🏻‍🎓 Graduated from State University of New York"),
-  emoji("🧘🏻‍♀️ Love gym and cooking"), emoji("🏃🏻‍♀️ Enjoys hiking and staying positive"),emoji(" ✍🏻 Love writing and sharing ideas"),
+  introductionParagraphs: [
+    emoji("👩🏻‍💻 Passionate Full Stack Software Developer"),
+    emoji("🚀 Looking for Internships and Full Stack Developer roles in tech"),
+    emoji("👩🏻‍🎓 Graduated from State University of New York"),
+    emoji("🧘🏻‍♀️ Love gym and cooking"),
+    emoji("🏃🏻‍♀️ Enjoys hiking and staying positive"),
+    emoji(" ✍🏻 Love writing and sharing ideas")
   ],
   resumeLink:
-    "https://drive.google.com/file/d/131efNp7JRt77-eay9MEehb5b6uR-8JoL/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1bs2rvEVlaPHIRdeUrIu4fF1tK5u7iZE9/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -37,7 +40,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/Itachi4",
-  linkedin: "https://www.linkedin.com/in/faizuddinmohammed4/",
+  linkedin: "https://www.linkedin.com/in/faizuddinmohammed44/",
   gmail: "faizuddin3366@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -54,9 +57,7 @@ const skillsSection = {
       "⚡Develop highly interactive front-end interfaces powered by robust back-end integration for web applications that shine. "
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as MongoDB/ AWS"
-    )
+    emoji("⚡ Integration of third party services such as MongoDB/ AWS")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -110,22 +111,20 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Pandas",
-      fontAwesomeClassname: "fas fa-chart-line"  
+      fontAwesomeClassname: "fas fa-chart-line"
     },
     {
       skillName: "scikit-learn",
-      fontAwesomeClassname: "fas fa-brain"  
+      fontAwesomeClassname: "fas fa-brain"
     },
     {
       skillName: "TensorFlow",
-      fontAwesomeClassname: "fas fa-brain"  
+      fontAwesomeClassname: "fas fa-brain"
     },
     {
       skillName: "Matplotlib",
-      fontAwesomeClassname: "fas fa-chart-bar" 
-    },
-
-
+      fontAwesomeClassname: "fas fa-chart-bar"
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -141,16 +140,14 @@ const educationInfo = {
       subHeader: "Master of Science in Computer Science",
       duration: "August 2022 - December 2023",
       desc: "GPA 4.0/4.0",
-      desc:
-        "Relevant Coursework: Operating Systems, DBMS, Algorithms, ML, Web Technologies, Data Science, Data Analytic",
-        
+      desc: "Relevant Coursework: Operating Systems, DBMS, Algorithms, ML, Web Technologies, Data Science, Data Analytic"
     },
     {
       schoolName: " Jawaharlal Nehru Technological University",
       logo: require("./assets/images/jntuh.png"),
       subHeader: "Bachelor of Technology in Computer Science",
-      duration: "June 2015 - June 2019",
-      desc: "Relevant Coursework:  Java, C, Python, Object-Oriented Design, Data strucutres, Algorithms, Discrete Math",
+      duration: "June 2017 - June 2021",
+      desc: "Relevant Coursework:  Java, C, Python, Object-Oriented Design, Data strucutres, Algorithms, Discrete Math"
     }
   ]
 };
@@ -182,33 +179,35 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: " Machine Learning Intern",
-      company: "Scale AI",
-      companylogo: require("./assets/images/scaleai.png"),
-      date: "June 2023 – January 2024",
+      role: " Research Assistant",
+      company: "UB",
+      companylogo: require("./assets/images/suny.png"),
+      date: "October 2023 – January 2025",
       descBullets: [
         "Conducted exploratory data analysis (EDA) on large datasets using Python, Pandas, Matplotlib, and NumPy to uncover insights and inform model selection strategies. Developed and enhanced predictive models employing scikit-learn and TensorFlow for classification and regression problems, achieving significant accuracy improvements. Implemented Natural Language Processing (NLP) techniques with NLTK for sentiment analysis, enhancing product recommendation systems and integrating deep learning methodologies for robust analytics."
       ]
     },
-    
+
     {
       role: "Senior Full Stack Developer",
       company: "Infosys",
       companylogo: require("./assets/images/infosys.png"),
-      date: "June 2019 – June 2022",
-      descBullets: ["Spearheaded the development of RESTful APIs and integrated Microservices using Java and Spring Boot, boosting system efficiency. Enhanced UI responsiveness by building interactive SPAs with Angular, RxJS, NgRx, and Angular Material. Streamlined workflows with AWS Lambda, reducing latency by 20%, and implemented efficient CI/CD pipelines using Jenkins. Ensured robust security by collaborating on scans, data masking, and encryption. Optimized Oracle 9i database interactions, significantly improving data access and performance. "]
+      date: "May 2019 – August 2022",
+      descBullets: [
+        "Spearheaded the development of RESTful APIs and integrated Microservices using Java and Spring Boot, boosting system efficiency. Enhanced UI responsiveness by building interactive SPAs with Angular, RxJS, NgRx, and Angular Material. Streamlined workflows with AWS Lambda, reducing latency by 20%, and implemented efficient CI/CD pipelines using Jenkins. Ensured robust security by collaborating on scans, data masking, and encryption. Optimized Oracle 9i database interactions, significantly improving data access and performance. "
+      ]
     },
 
     {
-      role: "Teaching Assistant",
-      company: "Jawaharlal Nehru Technological University",
-      companylogo: require("./assets/images/jntuh.png"),
-      date: "January 2017 – January 2018",
+      role: "Software Developer",
+      company: "Cleartrip",
+      companylogo: require("./assets/images/infosys.png"),
+      date: "January 2017 – July 2017",
       descBullets: [
-        "Led weekly lab recitations for a cohort of 30 master students,worked with faculty members to evaluate student labs, assignments, and projects on a weekly basis.",
-        "Mentored first-semester students in Python programming, data structure and algorithms."
+        "Boosted system efficiency and user satisfaction by integrating Java and Spring Boot for backend and Angular for front-end development, leading the design and implementation of scalable software architectures",
+        "Succeeded in implementing data handling and conducting data analysis with various databases, optimizing query performance by 40% and enhancing overall system efficiency, leading to a cost savings."
       ]
-    },
+    }
     // {
     //   role: "Software Engineer Intern",
     //   company: "Airbnb",
@@ -236,7 +235,8 @@ const bigProjects = {
     {
       image: require("./assets/images/javagarbage.webp"),
       projectName: " Java Garbage Collector",
-      projectDesc: "The G1-style garbage collector exhibits deep expertise in JVM internals and memory management, featuring custom concurrent mark-sweep algorithms that reduce pause times and enhance application performance; it includes advanced thread synchronization, uses volatile variables for improved concurrency control, and incorporates robust exception handling with optimized memory allocation strategies.",
+      projectDesc:
+        "The G1-style garbage collector exhibits deep expertise in JVM internals and memory management, featuring custom concurrent mark-sweep algorithms that reduce pause times and enhance application performance; it includes advanced thread synchronization, uses volatile variables for improved concurrency control, and incorporates robust exception handling with optimized memory allocation strategies.",
       footerLink: [
         {
           name: "Visit Website",
@@ -248,7 +248,8 @@ const bigProjects = {
     {
       image: require("./assets/images/blockchain.webp"),
       projectName: "AdSpace Marketplace DApp",
-      projectDesc: "Developed a decentralized marketplace leveraging Ethereum blockchain technology, integrated with MetaMask for secure cryptocurrency transactions and Web3.js for interacting directly with smart contracts. Deployed the application in a cloud environment, utilizing containers for microservice orchestration. Streamlined ad space management through a sophisticated React interface, hosted on Heroku with dynamic scaling and automated deployment pipelines for continuous integration and delivery. Incorporated robust security features such as SSL/TLS encryption and OAuth for user authentication to ensure data integrity and privacy.",
+      projectDesc:
+        "Developed a decentralized marketplace leveraging Ethereum blockchain technology, integrated with MetaMask for secure cryptocurrency transactions and Web3.js for interacting directly with smart contracts. Deployed the application in a cloud environment, utilizing containers for microservice orchestration. Streamlined ad space management through a sophisticated React interface, hosted on Heroku with dynamic scaling and automated deployment pipelines for continuous integration and delivery. Incorporated robust security features such as SSL/TLS encryption and OAuth for user authentication to ensure data integrity and privacy.",
       footerLink: [
         {
           name: "Visit Website",
@@ -259,19 +260,20 @@ const bigProjects = {
     {
       image: require("./assets/images/carrental.webp"),
       projectName: "Car Rental Management System",
-      projectDesc: "Implemented a robust Java-based backend with PostgreSQL integration for efficient data management and scalability. Developed the front-end using React.js, leveraging its component-based architecture to ensure a responsive and user-friendly interface. Hosted the application on the Azure cloud, utilizing Azure App Service for seamless deployment and Azure SQL Database for high availability and secure data storage. Enhanced the system's security with Azure Active Directory for identity management and incorporated automated CI/CD pipelines using Azure DevOps for streamlined updates and maintenance.",
-      
+      projectDesc:
+        "Implemented a robust Java-based backend with PostgreSQL integration for efficient data management and scalability. Developed the front-end using React.js, leveraging its component-based architecture to ensure a responsive and user-friendly interface. Hosted the application on the Azure cloud, utilizing Azure App Service for seamless deployment and Azure SQL Database for high availability and secure data storage. Enhanced the system's security with Azure Active Directory for identity management and incorporated automated CI/CD pipelines using Azure DevOps for streamlined updates and maintenance."
     },
     {
       image: require("./assets/images/movierec.webp"),
       projectName: "Movie Recommendation System",
-      projectDesc: " Developed the frontend using Angular, creating a dynamic and responsive user interface. For the backend, implemented a real-time movie recommendation engine with MongoDB for scalable data storage, and Express.js integrated with machine learning algorithms, using TensorFlow to enhance personalization based on user behavior. Created efficient RESTful APIs with Node.js and Express for robust request handling, including JWT authentication for secure user sessions. The complete system was deployed on Google Cloud Platform (GCP), utilizing Compute Engine for scalable server management, Cloud Storage for efficient data accessibility, and App Engine for automatic scaling capabilities.",
-      
+      projectDesc:
+        " Developed the frontend using Angular, creating a dynamic and responsive user interface. For the backend, implemented a real-time movie recommendation engine with MongoDB for scalable data storage, and Express.js integrated with machine learning algorithms, using TensorFlow to enhance personalization based on user behavior. Created efficient RESTful APIs with Node.js and Express for robust request handling, including JWT authentication for secure user sessions. The complete system was deployed on Google Cloud Platform (GCP), utilizing Compute Engine for scalable server management, Cloud Storage for efficient data accessibility, and App Engine for automatic scaling capabilities."
     },
     {
       image: require("./assets/images/crime.webp"),
       projectName: "Real-Time Crime Forecasting",
-      projectDesc: "Spearheaded the development of, leveraging including Pandas, NumPy, and Scikit-learn to predict and trends. Employed clustering algorithms like K-Means and DBSCAN, and classification models such as Random Forest and SVM to enhance predictive accuracy. Additionally, engineered from socio-economic and geographic data, implemented an interactive using Folium, and deployed the solution on GCP. This involved rigorous evaluation, significantly improving predictive accuracy and operational response times.",
+      projectDesc:
+        "Spearheaded the development of, leveraging including Pandas, NumPy, and Scikit-learn to predict and trends. Employed clustering algorithms like K-Means and DBSCAN, and classification models such as Random Forest and SVM to enhance predictive accuracy. Additionally, engineered from socio-economic and geographic data, implemented an interactive using Folium, and deployed the solution on GCP. This involved rigorous evaluation, significantly improving predictive accuracy and operational response times.",
       footerLink: [
         {
           name: "Visit Website",
@@ -282,7 +284,8 @@ const bigProjects = {
     {
       image: require("./assets/images/takeout.webp"),
       projectName: "Takeout Management System",
-      projectDesc: "Developed a Takeout Management System featuring a robust backend built with Spring Boot, supporting effective management of dishes, orders, and employee details, and secured with Spring Security and Spring Data JPA for MySQL integration. The Angular frontend, enhanced with Node.js, offers an intuitive interface for customers to explore menus and place orders in real-time. The system leverages MySQL and Mybatis Plus for a scalable database structure and Redis for caching, improving application responsiveness and reducing load times.",
+      projectDesc:
+        "Developed a Takeout Management System featuring a robust backend built with Spring Boot, supporting effective management of dishes, orders, and employee details, and secured with Spring Security and Spring Data JPA for MySQL integration. The Angular frontend, enhanced with Node.js, offers an intuitive interface for customers to explore menus and place orders in real-time. The system leverages MySQL and Mybatis Plus for a scalable database structure and Redis for caching, improving application responsiveness and reducing load times.",
       footerLink: [
         {
           name: "Visit Website",
@@ -293,7 +296,8 @@ const bigProjects = {
     {
       image: require("./assets/images/trails.webp"),
       projectName: "Trails Web Application",
-      projectDesc: "Built a full-stack Trails Web Application that enables users to search, add, and rate hiking trail locations. The front end was designed using HTML, CSS, and JavaScript to craft a dynamic user interface. Backend functionality was achieved through RESTful APIs developed with Node.js and Express, handling HTTP requests and efficiently managing data using MongoDB as the primary database. User authentication was secured with Passport.js, enhancing the user experience. The application features integrated Cloudinary for storing and managing images associated with user reviews and uses MapBox APIs to create an interactive cluster map, leveraging geocoding data to dynamically display locations.",
+      projectDesc:
+        "Built a full-stack Trails Web Application that enables users to search, add, and rate hiking trail locations. The front end was designed using HTML, CSS, and JavaScript to craft a dynamic user interface. Backend functionality was achieved through RESTful APIs developed with Node.js and Express, handling HTTP requests and efficiently managing data using MongoDB as the primary database. User authentication was secured with Passport.js, enhancing the user experience. The application features integrated Cloudinary for storing and managing images associated with user reviews and uses MapBox APIs to create an interactive cluster map, leveraging geocoding data to dynamically display locations.",
       footerLink: [
         {
           name: "Visit Website",
@@ -301,7 +305,6 @@ const bigProjects = {
         }
       ]
     }
-
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -320,27 +323,22 @@ const achievementSection = {
       subtitle: "Won Undergraduate technical fest with 17 DOF autonomous robot",
       image: require("./assets/images/robot.webp"),
       imageAlt: "Awesome Robot here!",
-      footerLink: [
-       
-      ]
+      footerLink: []
     },
     {
       title: "Infosys Certified Angular Professional",
       subtitle: "Certified in  Angular, RxJS, Angular CLI, Angular Material",
       image: require("./assets/images/angular.png"),
       imageAlt: "Angular Certification",
-      footerLink: [
-       
-      ]
+      footerLink: []
     },
     {
       title: "Infosys Certified Java Professional",
-      subtitle: "Certified in  OOPS, Operators, Spring MVC, Hibernate, JDBC, JPA, Autowiring",
+      subtitle:
+        "Certified in  OOPS, Operators, Spring MVC, Hibernate, JDBC, JPA, Autowiring",
       image: require("./assets/images/java.png"),
       imageAlt: "Java Certification",
-      footerLink: [
-       
-      ]
+      footerLink: []
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -404,8 +402,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me"),
-  subtitle:
-    "Discuss job opportunities or just say hi? ",
+  subtitle: "Discuss job opportunities or just say hi? ",
   email_address: "faizuddin3366@gmail.com"
 };
 
