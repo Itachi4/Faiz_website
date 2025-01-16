@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Faiz_website/static/css/main.2c912a50.css",
-    "main.js": "/Faiz_website/static/js/main.8fd91352.js",
+    "main.js": "/Faiz_website/static/js/main.7aea7dc5.js",
     "static/css/64.dc38dcf9.chunk.css": "/Faiz_website/static/css/64.dc38dcf9.chunk.css",
     "static/js/64.cea9f33d.chunk.js": "/Faiz_website/static/js/64.cea9f33d.chunk.js",
     "static/css/769.9988c480.chunk.css": "/Faiz_website/static/css/769.9988c480.chunk.css",
@@ -21,13 +21,12 @@
     "static/media/Agustina.woff": "/Faiz_website/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/infosys.png": "/Faiz_website/static/media/infosys.f3a497a71f31ce6f68e3.png",
     "static/media/greeting.JPG": "/Faiz_website/static/media/greeting.e4e7f3ac8cf89e176650.JPG",
-    "static/media/scaleai.png": "/Faiz_website/static/media/scaleai.790d4d88163f5d968de0.png",
-    "static/media/skills.JPG": "/Faiz_website/static/media/skills.a40df0f527eb6602371b.JPG",
+    "static/media/skills.JPG": "/Faiz_website/static/media/skills.a9cc70c61a99543979c9.JPG",
     "static/media/skill.svg": "/Faiz_website/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/Faiz_website/index.html",
     "static/media/talksCardBack.svg": "/Faiz_website/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.2c912a50.css.map": "/Faiz_website/static/css/main.2c912a50.css.map",
-    "main.8fd91352.js.map": "/Faiz_website/static/js/main.8fd91352.js.map",
+    "main.7aea7dc5.js.map": "/Faiz_website/static/js/main.7aea7dc5.js.map",
     "64.dc38dcf9.chunk.css.map": "/Faiz_website/static/css/64.dc38dcf9.chunk.css.map",
     "64.cea9f33d.chunk.js.map": "/Faiz_website/static/js/64.cea9f33d.chunk.js.map",
     "769.9988c480.chunk.css.map": "/Faiz_website/static/css/769.9988c480.chunk.css.map",
@@ -35,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.2c912a50.css",
-    "static/js/main.8fd91352.js"
+    "static/js/main.7aea7dc5.js"
   ]
 }
