@@ -140,7 +140,8 @@ const educationInfo = {
       subHeader: "Master of Science in Computer Science",
       duration: "August 2022 - December 2023",
       desc: "GPA 4.0/4.0",
-      desc: "Relevant Coursework: Operating Systems, DBMS, Algorithms, ML, Web Technologies, Data Science, Data Analytic"
+      desc2:
+        "Relevant Coursework: Operating Systems, DBMS, Algorithms, ML, Web Technologies, Data Science, Data Analytic"
     },
     {
       schoolName: " Jawaharlal Nehru Technological University",
