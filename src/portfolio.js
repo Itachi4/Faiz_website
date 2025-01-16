@@ -43,7 +43,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/faizuddinmohammed44/",
   gmail: "faizuddin3366@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  // To customize the icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to falsee
 };
 
