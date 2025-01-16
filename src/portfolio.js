@@ -44,7 +44,7 @@ const socialMediaLinks = {
   gmail: "faizuddin3366@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  display: true // Set true to display this section, defaults to falsee
 };
 
 // Skills Section
