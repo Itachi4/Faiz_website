@@ -1,14 +1,14 @@
-import React, { useContext } from "react";
+import React, {useContext} from "react";
 import "./Skills.scss";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
-import { illustration, skillsSection } from "../../portfolio";
-import { Fade } from "react-reveal";
+import {illustration, skillsSection} from "../../portfolio";
+import {Fade} from "react-reveal";
 import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Skills() {
-  const { isDark } = useContext(StyleContext);
+  const {isDark} = useContext(StyleContext);
   if (!skillsSection.display) {
     return null;
   }
@@ -17,9 +17,7 @@ export default function Skills() {
       <div className="skills-main-div">
         <Fade left duration={1000}>
           <div className="skills-image-div">
-            <img
-              src={require("../../assets/images/skills.JPG")}
-            ></img>
+            <img src={require("../../assets/images/skills.JPG")}></img>
           </div>
         </Fade>
         <Fade right duration={1000}>
@@ -44,11 +42,7 @@ export default function Skills() {
                 return (
                   <p
                     key={i}
-                    className={
-                      isDark
-                        ? "dark-mode skills-text"
-                        : "skills-text"
-                    }
+                    className={isDark ? "dark-mode skills-text" : "skills-text"}
                   >
                     {skills}
                   </p>

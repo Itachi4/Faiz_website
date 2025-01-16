@@ -1,8 +1,8 @@
-import React, { useState, createRef } from "react";
+import React, {useState, createRef} from "react";
 import "./ExperienceCard.scss";
 import ColorThief from "colorthief";
 
-export default function ExperienceCard({ cardInfo, isDark }) {
+export default function ExperienceCard({cardInfo, isDark}) {
   const [colorArrays, setColorArrays] = useState([]);
   const imgRef = createRef();
 
@@ -17,16 +17,18 @@ export default function ExperienceCard({ cardInfo, isDark }) {
       : "rgb(" + values.join(", ") + ")";
   }
 
-  const GetDescBullets = ({ descBullets, isDark }) => {
+  const GetDescBullets = ({descBullets, isDark}) => {
     return descBullets
       ? descBullets.map((item, i) => (
-        <li
-          key={i}
-          className={isDark ? "experience-text dark-mode-text" : "experience-text "}
-        >
-          {item}
-        </li>
-      ))
+          <li
+            key={i}
+            className={
+              isDark ? "experience-text dark-mode-text" : "experience-text "
+            }
+          >
+            {item}
+          </li>
+        ))
       : null;
   };
 
